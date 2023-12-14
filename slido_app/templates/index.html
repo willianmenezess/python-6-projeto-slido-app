@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <title>Evento Q&A - Replicando Slido</title>
+</head>
+<body>
+  <header class="event-header">
+    <h1>Evento de Q&A</h1>
+  </header>
+  
+  <section class="ask-question">
+    <h2>Faça uma pergunta, {{visitor}}</h2>
+    <form class="question-form" id="question-form" method="post" action="{% url 'create_question' %}">
+      {% csrf_token %}
+      <label for="question-text">Sua pergunta:</label>
+      <textarea id="question-text" name="question-text" rows="4" required></textarea>
+      <button type="submit">Enviar pergunta</button>
+    </form>
+  </section>
+  
+  <main class="questions-container">
+
+      {% for question in questions %}
+
+      <section class="question">
+        <h2>{{question.question}}</h2>
+        <p class="votes">Votos: {{question.votes}}</p>
+        <p class="author">De: {{question.visitor}}</p>
+      </section>
+
+      {% endfor %}
+
+  </main>
+</body>
+</html>
