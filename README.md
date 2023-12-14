@@ -1,15 +1,16 @@
-# Repositório de aulas ao vivo para estudantes da Eletiva Python na Turma 29 🐍
+# README em Construção 🐍
 
-Este repositório armazena os códigos e scripts fornecidos durante as aulas ao vivo pelas pessoas especialistas da Trybe.
+Em breve será atualizado.
 
 ## Iniciando
 
 Basta clonar o repositório 😎
 
 ```
-git clone git@github.com:tryber/python-029-live-lectures.git
+git clone git@github.com:willianmenezess/python-6-projeto-slido-app.git
 ```
 
 ## Estrutura
 
-Todos os conteúdos dados em aulas estarão no seu respectivo Pull Request! Aproveite esses conteúdos para estudar 😉
+Estrutura do Projeto...
+
