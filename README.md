@@ -12,6 +12,20 @@ Aplicação Full Stack com Python, realizado na eletiva (especialização) de ba
 ## Iniciando localmente
 
 **[1]**Clonar o repositório:
+# Projeto Slido App - Replicando o slido 🐍
+
+Aplicação Full Stack com Python, realizado na eletiva (especialização) de back-end com python da Trybe, desenvolvido em Django e DRF, com o front-end feito no server-side. O projeto é a criação de uma plataforma fácil de usar para perguntas, respostas e pesquisas, ajudando as pessoas a tirarem o máximo proveito de reuniões e eventos.
+
+<strong>🚵 Habilidades trabalhadas:</strong>
+  <ul>
+    <li>Escrever aplicações usando Django e Django Rest Framework</li>
+    <li>Desenvolver uma aplicação que usa a arquitetura Model-View-Template</li>
+    <li>Trabalhar com banco de dados MYSQL</li>
+</ul>
+
+## Iniciando localmente
+
+**[1]**Clonar o repositório:
 ```
 git clone git@github.com:willianmenezess/python-6-projeto-slido-app.git
 ```
